@@ -34,7 +34,6 @@ app.post("/api/contact", async (req, res) => {
 
     await newContact.save();
 
-    // send email notification
     await sendContactEmail({ name, email, phone, message });
 
     res.status(200).json({ message: "Message stored and email sent" });
