@@ -15,8 +15,18 @@
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.2.4",
-    "nodemailer": "^8.0.1",
+    "mongoose": "^9.3.0",
+    "nodemailer": "^8.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selva03-t/samseetech-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Selva03-t/samseetech-backend/issues"
+  },
+  "homepage": "https://github.com/Selva03-t/samseetech-backend#readme",
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }
