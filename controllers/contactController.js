@@ -4,9 +4,8 @@
 import { Resend } from "resend";
 import Contact from "../models/contact.js";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export const sendContactEmail = async (req, res) => {
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // ================= DEBUG =================
     console.log("📥 RAW BODY RECEIVED:", req.body);
